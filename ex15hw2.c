@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main(int argc, char *argv[])
+{
+    // create two arrays we care about
+    int ages[] = {23, 43, 12, 89, 2};
+    char *names[] = {
+        "Alan", "Frank",
+        "Mary", "John", "Lisa"
+    };
+	int i = 0;
+	for(i = 0; i < 5; i++){
+		printf("%s has %d years alive.\n", names[i], ages[i] );
+	}
+	return 0;
+}	
